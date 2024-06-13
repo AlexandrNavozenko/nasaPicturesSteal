@@ -1,0 +1,16 @@
+###
+POST http://localhost:8585/nasa/pictures/steal
+Content-Type: application/json
+
+{
+  "sol":  14
+}
+
+
+###
+GET http://localhost:8585/nasa/pictures
+
+
+
+
+
