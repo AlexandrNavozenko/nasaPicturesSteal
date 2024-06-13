@@ -41,7 +41,7 @@ public class Camera {
     public static Camera build(final NasaCameraDto nasaCameraDto) {
         return Camera.builder()
                 .nasaId(nasaCameraDto.getId())
-                .name(nasaCameraDto.getName())
+                .name(nasaCameraDto.getFullName())
                 .createdAt(LocalDate.now())
                 .build();
     }
